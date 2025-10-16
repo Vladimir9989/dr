@@ -78,14 +78,3 @@ body {
     animation: pulse 0.5s ease-in-out infinite;
 }
 
-@media screen and (orientation: landscape) {
-    body {
-        transform: rotate(-90deg);
-        transform-origin: left top;
-        width: 100vh;
-        overflow-x: hidden;
-        position: absolute;
-        top: 100%;
-        left: 0;
-    }
-}
